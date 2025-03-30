@@ -1,6 +1,16 @@
-# Ignorer les exécutables
+# Ignorer les fichiers compilés ou exécutables
 *.exe
 *.out
+*.dll
+*.so
 
 # Fichiers temporaires
 *.tmp
+*.log
+
+# Pour Python (si on part sur Python)
+__pycache__/
+*.pyc
+
+# Pour Visual Studio Code
+.vscode/
